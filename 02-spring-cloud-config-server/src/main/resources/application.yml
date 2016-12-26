@@ -1,0 +1,10 @@
+---
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/amitoncloud007/config-server
+          searchPaths: configData
+          
