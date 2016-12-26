@@ -5,6 +5,8 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/amitoncloud007/config-server
-          searchPaths: configData
+          uri: https://github.com/amitoncloud007/config-data
+          searchPaths: 03-spring-config-data
+server:
+  port: 8001
           
